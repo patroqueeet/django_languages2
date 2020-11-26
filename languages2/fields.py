@@ -8,7 +8,7 @@ class LanguageField(CharField):
 
     def __init__(self, *args, **kwargs):
         # Local import so the languages aren't loaded unless they are needed.
-        from django_languages.languages import LANGUAGES
+        from languages2.languages import LANGUAGES
 
         kwargs.setdefault("max_length", 8)
         kwargs.setdefault("choices", LANGUAGES)
