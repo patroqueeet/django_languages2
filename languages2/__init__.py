@@ -1,1 +1,1 @@
-from django_languages.fields import LanguageField
+from languages2.fields import LanguageField
