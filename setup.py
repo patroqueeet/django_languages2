@@ -8,5 +8,5 @@ setup(
     packages=["languages2"],
     description="forked unmainted repo",
     long_description=open("README.txt").read(),
-    install_requires=["Django >= 3.0.1",],
+    install_requires=["Django >= 2.2",],
 )
