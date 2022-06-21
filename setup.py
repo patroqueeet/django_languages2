@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="Languages2",
-    version="0.0.4",
+    version="0.0.5",
     author="Patroqueeet",
     author_email="jirka@tschitschereengreen.com",
     packages=["languages2"],
