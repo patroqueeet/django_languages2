@@ -6,7 +6,7 @@ class LanguageField(CharField):
     A language field for Django models.
     """
 
-    def __init__(self, *args, db_collation, **kwargs):
+    def __init__(self, *args, db_collation=None, **kwargs):
         # Local import so the languages aren't loaded unless they are needed.
         from languages2.languages import LANGUAGES
 
